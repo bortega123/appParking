@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
+    android:orientation="vertical"
+    tools:context=".ManipularCircuito">
+
+    <TextView
+        android:id="@+id/tvusucir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/barra"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Bienvenido Usuario :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Manipular Circuito"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:text="Estado : Activo"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:text="Distancia actual : 37 cm"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:text="LED encendido : Amarillo"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnact"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#1E7F46"
+        android:text="Activar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="60dp" />
+
+    <Button
+        android:id="@+id/btndes"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/rojo"
+        android:text="Desactivar"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="60dp" />
+
+    <Button
+        android:id="@+id/btnvolver"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#7A1B16"
+        android:text="Volver"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="28dp" />
+
+</LinearLayout>

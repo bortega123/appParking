@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
+    android:orientation="vertical"
+    tools:context=".Perfil">
+
+    <TextView
+        android:id="@+id/tvusuperfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/barra"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Bienvenido Usuario :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Ver Perfil"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvrut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:text="Rut : "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:text="Nombre : "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:text="Apellido : "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvcor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:text="Correo : "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvcar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:text="Cargo : "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:text="Contraseña : "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnvolver"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/rojo"
+        android:text="Volver"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="28dp" />
+
+</LinearLayout>

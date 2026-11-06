@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
+    android:orientation="vertical"
+    tools:context=".Acciones">
+
+    <TextView
+        android:id="@+id/tvusuacc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/barra"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Bienvenido Usuario :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Ver Acciones"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="Imagen de la acción"
+            android:src="@android:drawable/ic_dialog_alert" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Fecha : 01-01-2025\nHora : 00:00:00\nUsuario : 11.111.111-1\nAcción : Obstáculo Detectado\nDistancia : 37 cm"
+            android:textColor="#111111"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="Imagen de la acción"
+            android:src="@android:drawable/ic_dialog_alert" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Fecha : 01-01-2025\nHora : 00:00:00\nUsuario : 22.222.222-2\nAcción : Cerca de Impactar\nDistancia : 09 cm"
+            android:textColor="#111111"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnvolver"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/rojo"
+        android:text="Volver"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="28dp" />
+
+</LinearLayout>
