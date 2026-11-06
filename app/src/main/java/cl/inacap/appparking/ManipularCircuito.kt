@@ -48,13 +48,13 @@ class ManipularCircuito : AppCompatActivity() {
 
     fun botonActivar() {
         btnact.setOnClickListener {
-            Toast.makeText(this@ManipularCircuito, "¡ Sistema Activado !", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@ManipularCircuito, "¡ Asistente Activado !", Toast.LENGTH_SHORT).show()
         }
     }
 
     fun botonDesactivar() {
         btndes.setOnClickListener {
-            Toast.makeText(this@ManipularCircuito, "¡ Sistema Desactivado !", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@ManipularCircuito, "¡ Asistente Desactivado !", Toast.LENGTH_SHORT).show()
         }
     }
 

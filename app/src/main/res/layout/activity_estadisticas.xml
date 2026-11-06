@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="14dp"
-        android:text="Activaciones : 9"
+        android:text="Estacionamientos Realizados : 9"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
 
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="14dp"
-        android:text="Desactivaciones : 8"
+        android:text="Vehículos Detectados : 17"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
 
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="14dp"
-        android:text="Obstáculos Detectados : 17"
+        android:text="Alertas Amarillas : 8"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
 
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="14dp"
-        android:text="Cerca de Impactar : 4"
+        android:text="Alertas Rojas : 4"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
 

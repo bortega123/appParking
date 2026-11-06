@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:text="Fecha : 01-01-2025\nHora : 00:00:00\nUsuario : 11.111.111-1\nAcción : Obstáculo Detectado\nDistancia : 37 cm"
+            android:text="Fecha : 05-11-2026\nHora : 18:32:10\nUsuario : 11111111-1\nAcción : Vehículo Aproximándose\nZona : Amarilla\nDistancia : 85 cm"
             android:textColor="#111111"
             android:textSize="14sp" />
     </LinearLayout>
@@ -77,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:text="Fecha : 01-01-2025\nHora : 00:00:00\nUsuario : 22.222.222-2\nAcción : Cerca de Impactar\nDistancia : 09 cm"
+            android:text="Fecha : 05-11-2026\nHora : 18:32:40\nUsuario : 11111111-1\nAcción : Alerta de Colisión\nZona : Roja\nDistancia : 09 cm"
             android:textColor="#111111"
             android:textSize="14sp" />
     </LinearLayout>
